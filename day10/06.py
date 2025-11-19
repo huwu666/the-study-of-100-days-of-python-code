@@ -4,3 +4,7 @@ print(list(infos))
 frts = ['apple', 'banana', 'orange']
 print(tuple(frts))
 
+'''
+qqq
+
+'''
