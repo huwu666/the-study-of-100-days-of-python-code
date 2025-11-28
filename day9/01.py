@@ -28,3 +28,8 @@ print(items.count('python'))
 print(items.count('kotlin'))
 print(items.count('swfit'))
 
+items = ['python', 'java', 'c++', 'kotlin', 'swift']
+items.sort()
+print(items)
+items.reverse()
+print(items)

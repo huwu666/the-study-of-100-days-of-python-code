@@ -8,3 +8,4 @@ m = int(input('m = '))
 n = int(input('n = '))
 
 print(fac(m) // fac(n) // fac(m - n))
+

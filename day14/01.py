@@ -16,3 +16,7 @@ for num in range(1, m - n + 1):
     fk *= num
 
 print(fm // fn // fk)
+
+'''
+代码有很多种味道,重复是最坏的一种
+'''

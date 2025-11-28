@@ -1,3 +1,5 @@
+#随机验证码
+
 import random
 import string
 

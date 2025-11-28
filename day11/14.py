@@ -1,3 +1,4 @@
+#字符串的格式化
 s = 'hello, world'
 
 print(s.center(20, '*'))

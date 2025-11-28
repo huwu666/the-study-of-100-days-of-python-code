@@ -8,4 +8,3 @@ def cale(*args, **kwargs):
 
     return result
 
-print(cale(55,21,11,1,0,1))
