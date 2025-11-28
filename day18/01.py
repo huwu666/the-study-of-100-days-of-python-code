@@ -1,5 +1,4 @@
 class Student:
-
     def study(self, course_name):
         print(f'学生正在学习{course_name}')
 
