@@ -1,8 +1,7 @@
-#判断有多少位数进行组装
+#百钱百鸡问题
 
-num = int(input('num = '))
-reversed_num = 0
-while num > 0:
-    reversed_num = reversed_num * 10 + num % 10
-    num //= 10
-print(reversed_num)
+for x in range(1, 21):
+    for y in range(1, 34):
+        for z in range(1, 301):
+            if x + y + z == 100 and x * 5 + y * 3 + z // 3 == 100:
+                print(x, y, z)
