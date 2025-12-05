@@ -54,8 +54,29 @@ class Poker:
     def has_next(self):
         '''还没有牌可以发'''
         return self.current < len(self.cards)
-    
+
+'''
 Poker = Poker()
 print(Poker.cards)
 Poker.shuffle()
 print(Poker.cards)
+'''
+
+#下面定义玩家类
+
+class Plays:
+    '''玩家'''
+    
+    def __init__(self, name):
+        self.name = name
+        self.cards = []
+
+    def get_one(self, card):
+        '''摸牌'''
+        self.cards.append(card)
+
+    def arrange(self):
+        '''整理手上的牌'''
+        self.cards.sort()
+
+    

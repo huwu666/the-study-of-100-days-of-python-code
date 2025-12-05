@@ -5,7 +5,7 @@ file = None
 try:
     file = open('致橡树.txt', 'r', encoding = 'utf - 8')
 except FileNotFoundError:
-    print('无法打开指定文件1')
+    print('无法打开指定文件')
 except LookupError:
     print('指定了未知的编码')
 except UnicodeDecodeError:
